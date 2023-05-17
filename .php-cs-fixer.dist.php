@@ -3,7 +3,7 @@
 declare(strict_types=1);
 
 /**
- * This file is part of PHPDevsr/Minifyku.
+ * This file is part of PHPDevsr/codeigniter4-webp.
  *
  * (c) 2023 Denny Septian Panggabean <xamidimura@gmail.com>
  *
