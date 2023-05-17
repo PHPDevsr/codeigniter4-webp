@@ -85,7 +85,7 @@ jobs:
           COVERALLS_FLAG_NAME: PHP ${{ matrix.php-versions }}
 
   windows:
-    name: PHP ${{ matrix.php-versions }} Unit Tests
+    name: PHP ${{ matrix.php-versions }} Unit Tests - Windows
     runs-on: ubuntu-latest
     if: "!contains(github.event.head_commit.message, '[ci skip]')"
     strategy:
